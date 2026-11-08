@@ -1,0 +1,139 @@
+{
+  "users": [
+    {
+      "id": "u-mw87jtom-4g9uv",
+      "username": "fitoz",
+      "tag": "6826",
+      "displayName": "Fitoz",
+      "passwordHash": "f0412b86a7bc78fbccf09b58bfd48cfe96eb94464c30226487593658ef357eff",
+      "avatar": "https://api.dicebear.com/7.x/adventurer/svg?seed=Aneka",
+      "color": "#6366F1",
+      "friends": [],
+      "friendRequests": [],
+      "serverIds": [
+        "s-main",
+        "s-mw87k6rb-pnho"
+      ],
+      "createdAt": "2026-11-08T19:10:56.518Z"
+    },
+    {
+      "id": "u-mw87tcjn-gt4yz",
+      "username": "mehmet",
+      "tag": "5440",
+      "displayName": "mehmet",
+      "passwordHash": "ba04b4d3a299173c684bcc092f68342f938f8aa860f4f2354b29e918caa4dfca",
+      "avatar": "https://api.dicebear.com/7.x/adventurer/svg?seed=Felix",
+      "color": "#6366F1",
+      "friends": [],
+      "friendRequests": [],
+      "serverIds": [
+        "s-main"
+      ],
+      "createdAt": "2026-11-08T19:18:20.867Z"
+    }
+  ],
+  "servers": [
+    {
+      "id": "s-main",
+      "name": "Itown Ana Merkez",
+      "icon": "IT",
+      "ownerId": "system",
+      "members": [
+        "u-mw87jtom-4g9uv",
+        "u-mw87tcjn-gt4yz"
+      ],
+      "channels": [
+        {
+          "id": "c-general",
+          "name": "genel-sohbet",
+          "type": "text",
+          "description": "Tüm arkadaşların ortak sohbet alanı"
+        },
+        {
+          "id": "c-games",
+          "name": "oyun-sohbeti",
+          "type": "text",
+          "description": "Oyun davetleri, klipler ve taktikler"
+        },
+        {
+          "id": "c-memes",
+          "name": "makara-medya",
+          "type": "text",
+          "description": "Görseller, capsler ve komik şeyler"
+        },
+        {
+          "id": "v-general",
+          "name": "Genel Ses Odası",
+          "type": "voice",
+          "description": "Ana ses odası"
+        },
+        {
+          "id": "v-gaming",
+          "name": "Oyun Odası 🎮",
+          "type": "voice",
+          "description": "Oyun oynayanlar için ses kanalı"
+        },
+        {
+          "id": "v-chill",
+          "name": "Muhabbet & Müzik 🎧",
+          "type": "voice",
+          "description": "Sessiz ve sakin sohbet köşesi"
+        }
+      ]
+    },
+    {
+      "id": "s-mw87k6rb-pnho",
+      "name": "Deneme 1",
+      "icon": "DE",
+      "ownerId": "u-mw87jtom-4g9uv",
+      "members": [
+        "u-mw87jtom-4g9uv"
+      ],
+      "channels": [
+        {
+          "id": "c-s-mw87k6rb-pnho-genel",
+          "name": "genel-sohbet",
+          "type": "text",
+          "description": "Deneme 1 genel sohbeti"
+        },
+        {
+          "id": "v-s-mw87k6rb-pnho-ses1",
+          "name": "Ses Odası 1",
+          "type": "voice",
+          "description": "Ana ses kanalı"
+        },
+        {
+          "id": "v-s-mw87k6rb-pnho-ses2",
+          "name": "Oyun Odası 🎮",
+          "type": "voice",
+          "description": "Oyun ses kanalı"
+        }
+      ]
+    }
+  ],
+  "messages": {
+    "c-general": [
+      {
+        "id": "welcome-1",
+        "senderId": "system",
+        "senderName": "Itown Bot 🤖",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=ItownBot",
+        "senderColor": "#6366F1",
+        "text": "Itown Space sistemine hoş geldiniz! Hesabınızı oluşturdunuz. Artık sol taraftan \"+\" butonuna basarak kendi sunucunuzu açabilir, arkadaşlarınızı davet edebilir ve sesli/görüntülü sohbet başlatabilirsiniz! 🎉",
+        "timestamp": "22:07"
+      }
+    ],
+    "c-s-mw87k6rb-pnho-genel": [
+      {
+        "id": "msg-1794165073463",
+        "senderId": "system",
+        "senderName": "Itown Bot 🤖",
+        "senderAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=ItownBot",
+        "senderColor": "#6366F1",
+        "text": "\"Deneme 1\" sunucusu başarıyla oluşturuldu! Arkadaş listenizdeki arkadaşlarınızı davet edebilir veya yeni kanallar açabilirsiniz.",
+        "timestamp": "22:11"
+      }
+    ]
+  },
+  "invites": []
+}

@@ -1,0 +1,23 @@
+{
+  "name": "itown",
+  "version": "1.0.0",
+  "description": "Discord-like web app for friends and family with voice rooms, screen sharing, webcam and text chat",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "build": "npm --prefix client install && npm --prefix client run build",
+    "client": "npm --prefix client run dev",
+    "cloudflare": "npx cloudflared tunnel --protocol http2 --url http://127.0.0.1:3001",
+    "dev": "node server.js"
+  },
+  "keywords": ["discord", "webrtc", "voice-chat", "screenshare", "socketio"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "socket.io": "^4.8.4"
+  }
+}
